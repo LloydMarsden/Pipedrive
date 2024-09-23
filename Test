@@ -1,0 +1,7 @@
+echo "# Pipedrive" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/forward3d/datascience-pipedrive-scene/tree/feature/optimizer/outputs/models
+git push -u origin main
